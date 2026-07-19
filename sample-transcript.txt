@@ -1,0 +1,48 @@
+SAMPLE INTERVIEW TRANSCRIPT
+Interview Date: January 15, 2024
+Interviewee: Sarah Chen, Product Manager at TechCorp (250 employees)
+Duration: 45 minutes
+
+---
+
+Interviewer: Thanks for taking the time to speak with us. Can you walk us through your current workflow?
+
+Sarah: Sure! So our team uses several different tools right now. We have Jira for tickets, but we also use Notion for documentation, and then we're pulling data from Google Analytics separately. It's really fragmented.
+
+Interviewer: What's the pain point there?
+
+Sarah: The biggest issue is that everything is siloed. When I need to understand user behavior for a feature we're building, I have to manually collect data from three different systems. It takes about 2 hours just to compile a report. And honestly, the process is error-prone because I'm copy-pasting between systems.
+
+Interviewer: That sounds tedious. Have you looked at alternative solutions?
+
+Sarah: We have, but the onboarding process is always brutal. I tried your product last month actually, and it took me about 4 hours to get it set up for our team. The initial configuration seemed to require knowing SQL syntax, which not everyone on our team knows. We have designers, marketers, even some non-technical PMs. They need something they can just use without getting a CS call first.
+
+Interviewer: What would make that better?
+
+Sarah: A guided setup wizard would be huge. Show us a quick 5-minute tour of the interface, let us import our data, and then we could start exploring. Right now, the documentation is outdated too. It references features that don't exist in the current version, and there are no video tutorials.
+
+Interviewer: Got it. Anything else frustrating you?
+
+Sarah: Performance, actually. We have about 50,000 records in our database now, and the product starts to slow down noticeably. Queries that used to take 2 seconds now take 10. It's becoming unusable. I actually called support about this, and they suggested we upgrade our plan, but that shouldn't be necessary. It feels more like a database indexing problem.
+
+Interviewer: Have you thought about integrating this with other tools?
+
+Sarah: Yes! We'd love to push data into Slack or connect it to our data warehouse. Right now, we can't. And we can't build custom views or export data in a way that makes sense for our BI team. If this integrated with Zapier or had an API, we could build a lot more on top of it.
+
+Interviewer: What would it take for you to commit to using this full-time?
+
+Sarah: Fix the onboarding first. That's the biggest barrier. Second, improve the documentation and add some video tutorials. Third, if you could optimize for our data size, that would help. And honestly, if this had a few integrations or an API, we'd probably recommend it to other teams in our company. Right now, we're back to using multiple tools.
+
+Interviewer: Thank you. This is really helpful.
+
+Sarah: You're welcome. I really want this to work because your product is solid conceptually. It's just some execution issues around ease of use and scale that are holding us back.
+
+---
+
+INTERVIEW NOTES:
+- Interviewee is a technical PM at a mid-market SaaS company
+- Currently using fragmented tools (Jira, Notion, GA)
+- Tried the product but found onboarding too complex
+- Performance degrades at scale (50k records)
+- Needs API/integrations for team adoption
+- Would become power user if UX improved
